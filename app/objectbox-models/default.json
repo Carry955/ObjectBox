@@ -1,0 +1,211 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:3309845885686707093",
+      "lastPropertyId": "18:5089135624457400879",
+      "name": "ChatSession",
+      "properties": [
+        {
+          "id": "3:5765307785658788081",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "10:2020671775018414169",
+          "name": "userId",
+          "indexId": "1:7479658567141397151",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "11:3993152792839302239",
+          "name": "chatType",
+          "type": 5
+        },
+        {
+          "id": "12:7940984736208782912",
+          "name": "extIno",
+          "type": 9
+        },
+        {
+          "id": "13:5704468518244368517",
+          "name": "lastMsgText",
+          "type": 9
+        },
+        {
+          "id": "14:8847849088519790807",
+          "name": "msgStatus",
+          "type": 5
+        },
+        {
+          "id": "15:7997257385279844561",
+          "name": "sessionId",
+          "type": 9
+        },
+        {
+          "id": "16:4897606029756566561",
+          "name": "timestamp",
+          "type": 6
+        },
+        {
+          "id": "17:7569274640475651721",
+          "name": "toUserId",
+          "type": 9
+        },
+        {
+          "id": "18:5089135624457400879",
+          "name": "unReadCount",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:3941738993566664858",
+      "lastPropertyId": "20:122299453166324794",
+      "name": "ChatMsg",
+      "properties": [
+        {
+          "id": "1:6109004958277529118",
+          "name": "date",
+          "indexId": "15:6886547602143020050",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "2:8740561457676698179",
+          "name": "extMap",
+          "type": 9
+        },
+        {
+          "id": "3:7965240984450496819",
+          "name": "extString",
+          "type": 9
+        },
+        {
+          "id": "4:7204904132705421285",
+          "name": "f79934id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "5:4975888248454285629",
+          "name": "isAck",
+          "type": 5
+        },
+        {
+          "id": "6:1142041160738251199",
+          "name": "localTime",
+          "type": 6
+        },
+        {
+          "id": "7:478788225982837610",
+          "name": "msgContent",
+          "type": 9
+        },
+        {
+          "id": "8:7858639725624101750",
+          "name": "msgId",
+          "indexId": "16:9032162870940184534",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "9:4703123220934094434",
+          "name": "msgReceiveStatus",
+          "type": 5
+        },
+        {
+          "id": "10:7634192652586876539",
+          "name": "msgSource",
+          "type": 5
+        },
+        {
+          "id": "11:1002228194126186929",
+          "name": "msgStatus",
+          "indexId": "17:7666698834568354502",
+          "type": 5,
+          "flags": 8
+        },
+        {
+          "id": "12:1653181754531120335",
+          "name": "msgType",
+          "type": 5
+        },
+        {
+          "id": "13:3398021500102339815",
+          "name": "quoteMsgId",
+          "indexId": "18:3711470611039712217",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "14:4973846570085446256",
+          "name": "receiverId",
+          "type": 9
+        },
+        {
+          "id": "15:535117049101351015",
+          "name": "senderId",
+          "type": 9
+        },
+        {
+          "id": "16:7833523181749191033",
+          "name": "serverTime",
+          "indexId": "19:7448425277424511943",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "17:3757574779681121775",
+          "name": "sessionId",
+          "indexId": "20:6597559499507632654",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "18:267108083501368851",
+          "name": "showType",
+          "indexId": "21:6192645197278176047",
+          "type": 5,
+          "flags": 8
+        },
+        {
+          "id": "19:4362113934220663879",
+          "name": "snapChat",
+          "type": 5
+        },
+        {
+          "id": "20:122299453166324794",
+          "name": "text",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:3941738993566664858",
+  "lastIndexId": "21:6192645197278176047",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8001239879799360163,
+    8698148052131398741,
+    3541590128003258508,
+    2027226477277685074,
+    642663314608291692,
+    7481067735969362096,
+    8069063210099890328,
+    2288648718014483736
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

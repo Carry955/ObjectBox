@@ -1,0 +1,88 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "5:3309845885686707093",
+      "lastPropertyId": "18:5089135624457400879",
+      "name": "ChatSession",
+      "properties": [
+        {
+          "id": "3:5765307785658788081",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "10:2020671775018414169",
+          "name": "userId",
+          "indexId": "1:7479658567141397151",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "11:3993152792839302239",
+          "name": "chatType",
+          "type": 5
+        },
+        {
+          "id": "12:7940984736208782912",
+          "name": "extIno",
+          "type": 9
+        },
+        {
+          "id": "13:5704468518244368517",
+          "name": "lastMsgText",
+          "type": 9
+        },
+        {
+          "id": "14:8847849088519790807",
+          "name": "msgStatus",
+          "type": 5
+        },
+        {
+          "id": "15:7997257385279844561",
+          "name": "sessionId",
+          "type": 9
+        },
+        {
+          "id": "16:4897606029756566561",
+          "name": "timestamp",
+          "type": 6
+        },
+        {
+          "id": "17:7569274640475651721",
+          "name": "toUserId",
+          "type": 9
+        },
+        {
+          "id": "18:5089135624457400879",
+          "name": "unReadCount",
+          "type": 6
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:3309845885686707093",
+  "lastIndexId": "14:7479658567141397151",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8001239879799360163,
+    8698148052131398741,
+    3541590128003258508,
+    2027226477277685074,
+    642663314608291692,
+    7481067735969362096,
+    8069063210099890328,
+    2288648718014483736
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
